@@ -2,12 +2,12 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class Main extends JFrame {
+public class index extends JFrame {
 
     private JComboBox<String> combobox;
     private JComboBox<String> combobox1;
 
-    public Main() {
+    public index() {
         JFrame frame = new JFrame("Guess the Vivamax actress");
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -277,7 +277,7 @@ public class Main extends JFrame {
         }
     }
 
-    public static void main(String[] args) {
-        new Main();
+    public static void index(String[] args) {
+        new index();
     }
 }
